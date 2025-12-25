@@ -1,0 +1,63 @@
+
+# requirements.txt
+
+```txt
+# AbGenesis 2.0 - Antibody Design Platform
+# Core Dependencies
+
+# Web Framework
+streamlit==1.28.1
+streamlit-option-menu==0.3.6
+
+# Data Processing & Analysis
+numpy==1.24.3
+pandas==2.0.3
+scipy==1.11.2
+
+# Visualization
+plotly==5.17.0
+matplotlib==3.7.2
+
+# Bioinformatic Tools
+biopython==1.81
+
+# GitHub Integration
+PyGithub==1.59.0
+requests==2.31.0
+
+# Data Export & Serialization
+openpyxl==3.1.2
+xlrd==2.0.1
+
+# Utilities
+python-dotenv==1.0.0
+pillow==10.0.1
+pyyaml==6.0.1
+colorama==0.4.6
+
+# Development & Testing
+pytest==7.4.2
+black==23.9.1
+flake8==6.1.0
+mypy==1.5.1
+
+# Optional Dependencies (for advanced features)
+# PyRosetta (requires license) - for structural modeling
+# pyrosetta==2023.33
+
+# AlphaFold2/DiffDock - for structure prediction
+# torch==2.0.1
+# torchvision==0.15.2
+# biotite==0.38.0
+
+# Database Support (optional)
+# sqlalchemy==2.0.19
+# psycopg2-binary==2.9.7
+
+# Cloud Storage (optional)
+# boto3==1.28.57
+# google-cloud-storage==2.10.0
+
+# API Documentation
+# fastapi==0.104.1
+# uvicorn==0.24.0
