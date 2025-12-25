@@ -1797,6 +1797,7 @@ def show_settings():
             st.markdown("#### CDR Settings")
             st.session_state.cdr_params['ensemble_size'] = st.slider(
                 "Ensemble Size", 1, 100, 20
+            )
             st.session_state.cdr_params['diversity'] = st.slider(
                 "Sequence Diversity", 0.0, 1.0, 0.5, 0.05
             )
